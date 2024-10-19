@@ -24,6 +24,32 @@ Element 4: 4, Square: 16, Even
 Element 5: 5, Square: 25, Odd
 ```
 
-Via le chemin relatif j’execute ce qui suit : go run arrays_and_loops.go (compilation + execution) go 
-build 
-arrays_and_loops.go (compilation) pour exec : ./arrays_and_loops.go (execution)
+compil : go build arrays_assignment.go
+run : go run arrays_assignment.go
+exec : ./arrays_assignment.go
+
+
+package main // define package
+
+import ( // import packages
+	"fmt"
+	"math"
+)
+
+func main() { // func of beginning
+var arr [5]int // allocate an array of 5int to the arr var
+for i:=0;i<len(arr);i++ { // loop that iterate on var lenght
+arr[i] = i*i // stock like Pow Func exec of a value in the array relaed to var arr
+var ode string  
+
+if(arr[i]%2==1){ode="odd"}else{ode="even"} // statement to verify if modulo of the value  is odd or 
+even
+
+fmt.Printf(
+"Element %v : %v , Square : %v , %v", i+1, // %v display format value of a var if string method is 
+found and attached to it
+arr[i], math.Sqrt(float64(arr[i])) ,ode + " \n") // return value of index i in arr array
+}
+}
+
+
