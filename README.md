@@ -1,15 +1,27 @@
-# Golang Training Repository
+# Assignment 4: Structs, Public and Private Methods
 
-This repository is dedicated to Edouard's Golang training assignments. Each assignment will contain specific instructions and code related to Edouard's learning journey in Go.
+## Objective
 
-## Assignment 1: Hello World
+This assignment introduces structs and how to create public and private methods in Go.
 
-### Objective
+## Instructions
 
-For this first assignment, Edouard needs to write a simple Go program (`hello_world.go`) that prints the message `hello world!` to stdout. This exercise is to ensure that Edouard sets up his Go environment correctly and pushes his first piece of code to the repository.
+1. Create a file named `structs_assignment.go`.
+2. Inside the file, write a Go program that:
+   - Defines a `Person` struct with fields `firstName` (string), `lastName` (string), and `age` (int).
+   - Creates a private method `isAdult()` that checks if a person is 18 years or older.
+   - Creates a public method `PrintInfo()` that prints the person’s full name and whether they are an 
+adult (using the `isAdult()` method).
+3. Update the README with instructions on how to run this program.
 
-### Instructions
+**Example Output:**
 
-1. Create a file named `hello_world.go`.
-2. Inside the file, write a Go program that prints `hello world!` to stdout.
-3. Update this README with instructions on how to run the `hello_world.go` code. The instructions should explain how to compile and run the program using Go.
+```
+Full Name: John Doe, Age: 20
+John is an adult.
+```
+
+Via le chemin relatif j’execute ce qui suit : go run structs_public_and_private_methods.go (compilation 
++ execution) go build 
+structs_public_and_private_methods.go (compilation) pour exec : ./structs_public_and_private_methods.go 
+(execution)
