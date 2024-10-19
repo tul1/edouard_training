@@ -1,15 +1,27 @@
-# Golang Training Repository
+# Assignment 3: String Manipulation
 
-This repository is dedicated to Edouard's Golang training assignments. Each assignment will contain specific instructions and code related to Edouard's learning journey in Go.
+## Objective
 
-## Assignment 1: Hello World
+This assignment introduces working with strings and string functions in Go, focusing on manipulating 
+and transforming strings.
 
-### Objective
+## Instructions
 
-For this first assignment, Edouard needs to write a simple Go program (`hello_world.go`) that prints the message `hello world!` to stdout. This exercise is to ensure that Edouard sets up his Go environment correctly and pushes his first piece of code to the repository.
+1. Create a file named `strings_assignment.go`.
+2. Inside the file, write a Go program that:
+   - Reads a string from the user input (e.g., "Hello, Gophers!").
+   - Converts the string to uppercase and prints the result.
+   - Reverses the string and prints the reversed version.
+3. Update the README with instructions on how to run this program.
 
-### Instructions
+**Example Output:**
 
-1. Create a file named `hello_world.go`.
-2. Inside the file, write a Go program that prints `hello world!` to stdout.
-3. Update this README with instructions on how to run the `hello_world.go` code. The instructions should explain how to compile and run the program using Go.
+```
+Original String: Hello, Gophers!
+Uppercase String: HELLO, GOPHERS!
+Reversed String: !srehpoG ,olleH
+```
+
+Via le chemin relatif j’execute ce qui suit : go run strings_and_functions.go (compilation + execution) 
+go build 
+strings_and_functions.go (compilation) pour exec : ./strings_and_functions.go (execution)
