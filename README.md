@@ -46,8 +46,8 @@ if(arr[i]%2==1){ode="odd"}else{ode="even"} // statement to verify if modulo of t
 even
 
 fmt.Printf(
-"Element %v : %v , Square : %v , %v", i+1, // %v display format value of a var if string method is 
-found and attached to it
+"Element %v : %v , Square : %v , %v", i+1, // % is used to desribe the struct/type format that we want 
+to recover with text, depends of  value
 arr[i], math.Sqrt(float64(arr[i])) ,ode + " \n") // return value of index i in arr array
 }
 }
