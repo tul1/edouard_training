@@ -20,11 +20,11 @@ Full Name: John Doe, Age: 20
 John is an adult.
 ```
 
-Exercie 4
+# Exercie 4
 
 Create a character named John Doe aged of 18 and display if is an adult or not
 
-How it works
+## How it works
 
 1- Create Person struct that take Firstname, Lastname var attribute that are string and one other parameter that is age and type of uint
 2- Create isAdult private method that is attach to Person Object and return value of type bool depend if var.age is > 18 or not
