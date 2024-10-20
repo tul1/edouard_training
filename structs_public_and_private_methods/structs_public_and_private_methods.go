@@ -7,22 +7,21 @@ type Person struct {
         age uint
 }
 
-func (p Person) isAdult() (uint, string, string) {
-        return p.age, p.firstName, p.lastName
+func (p Person) isAdult() bool {
+        return p.age < 18
 }
 
 func PrintInfo(p1 Person) {
-        p1a, p1f, p1l := p1.isAdult()
-        switch {
-                case p1a < 18:
-                        fmt.Printf("\n Full Name: %v  %v, Age: %v \n %v %v isn't an adult\n\n", p1f, p1l, p1a, p1f, p1l)
-                case p1a >= 18:
-                        fmt.Printf("\n Full Name: %v  %v, Age: %v \n %v %v is an adult\n\n", p1f, p1l, p1a, p1f, p1l)
-                }
-
+        if p1.isAdult()==true {
+                fmt.Printf("%s isn't an adult\n", p1.firstName)
+        } else {
+                fmt.Printf("%s is an adult\n", p1.firstName)
+        }    
+        fmt.Printf("Full Name: %s %s, age: %d\n", p1.firstName, p1.lastName, p1.age)        
 }
 
 func main() {
-p1 := Person{"John", "Doe", 18}
-PrintInfo(p1)
+        p1 := Person{"John", "Doe", 21}
+        PrintInfo(p1)   
 }
+             
