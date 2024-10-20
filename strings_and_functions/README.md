@@ -21,9 +21,7 @@ Uppercase String: HELLO, GOPHERS!
 Reversed String: !srehpoG ,olleH
 ```
 
-How it works 
-
-Exercie 3
+EExercie 3
 
 Create a user input and manpulate it with runes(int32) to rend initial string, string upcase, reversed string
 

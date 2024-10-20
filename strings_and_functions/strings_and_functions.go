@@ -14,9 +14,9 @@ func Reverse(s string) string {
 }
 
 func main() {
-var stdin string
-fmt.Scan(&stdin)
-fmt.Println("Original String:",stdin)
-fmt.Println("Uppercase  String:", strings.ToUpper(stdin)) 
-fmt.Println("Reversed String:", Reverse(stdin))
+	var stdin string
+	fmt.Scan(&stdin)
+	fmt.Println("Original String:",stdin)
+	fmt.Println("Uppercase  String:", strings.ToUpper(stdin)) 
+	fmt.Println("Reversed String:", Reverse(stdin))
 }
