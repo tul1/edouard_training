@@ -23,25 +23,14 @@ Element 4: 4, Square: 16, Even
 Element 5: 5, Square: 25, Odd
 ```
 
-Array Squaring and Even/Odd Identifier
-
-This program demonstrates the use of arrays, loops, and basic mathematical operations in Go. It initializes an array of integers, computes the square of each element, and 
-checks whether the number is odd or even. Additionally, the program prints the square root of each element for reference.
-How It Works
-
-    An array of integers with 5 elements is created.
-    A for loop iterates over each element of the array:
-        The square of the index is assigned to the respective array element.
-        The program checks whether the number is odd or even.
-        It prints the following information for each array element:
-            The element’s position in the array.
-            The squared value.
-            The square root of the element.
-            Whether the number is odd or even.
-
-Output Format
-
-For each element in the array, the program prints the following formatted output:
-
-Element <position>: <value>, Square: <square root>, <odd/even>
+Exercie 2
+   
+create basic array and loop over it to print simple values
+   
+How it works
+1- Initialize an array of 5integer and odd var of type string
+2- Iterate over array with value i
+3- at each iteration, associate index of array with i*i
+4- at each iteration check if modulo 2 of array index is 0 or not, if 0 then associate odd string value to odd var else associate even value to odd var
+5- at each iteration print index of element, value of element, square of element and if element is odd or not)
 
