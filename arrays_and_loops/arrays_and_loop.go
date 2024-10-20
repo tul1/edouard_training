@@ -18,3 +18,4 @@ func main() {
 		fmt.Printf("Element %d: %d , Square %#v , %s", i+1, arr[i], math.Sqrt(float64(arr[i])), odd+"\n") 
 	}
 }
+
