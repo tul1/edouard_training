@@ -13,7 +13,7 @@ func main() {
 		if arr[i]%2==1 {
 			odd="odd"
 		} else {
-		odd="even"
+			odd="even"
 		} 
 		fmt.Print("\nElement ", i+1, ": ", arr[i], ",  Square: ", math.Sqrt(float64(arr[i])), ", ",  odd, "\n") 
 	}
