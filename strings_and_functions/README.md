@@ -20,3 +20,20 @@ Original String: Hello, Gophers!
 Uppercase String: HELLO, GOPHERS!
 Reversed String: !srehpoG ,olleH
 ```
+
+How it works 
+
+Exercie 3
+
+Create a user input and manpulate it with runes(int32) to rend initial string, string upcase, reversed string
+
+How it works
+
+1- Initialize var stdin type string
+2- create user input and attach value to var stdin
+3- display initial string with Println func of fmt package
+4- display string upcase with ToUpper func from strings package
+5- display reversed string call Reverse(return string) func with stdin parameter 
+5a -create slic of int32
+5b - create loop and initialize i and j var that are -1 and 1 
+5c - iterate over loop in order to replace each 'index/position' with opposite
