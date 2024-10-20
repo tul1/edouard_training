@@ -21,11 +21,13 @@ Uppercase String: HELLO, GOPHERS!
 Reversed String: !srehpoG ,olleH
 ```
 
-EExercie 3
+# Exercie 3
+
+##
 
 Create a user input and manpulate it with runes(int32) to rend initial string, string upcase, reversed string
 
-How it works
+## How it works
 
 1- Initialize var stdin type string
 2- create user input and attach value to var stdin
