@@ -19,3 +19,20 @@ This assignment introduces structs and how to create public and private methods 
 Full Name: John Doe, Age: 20
 John is an adult.
 ```
+
+Exercie 4
+
+Create a character named John Doe aged of 18 and display if is an adult or not
+
+How it works
+
+
+
+1- Create Person struct that take Firstname, Lastname var attribute that are string and one other parameter that is age and type of uint
+2- Create isAdult private method that is attach to Person struct and takes two string parameters and one other that is uint
+2a- return Person attribute of the (var p) Person Object
+3- Create Public PrintInfo func with p1 var of type Person struct
+3a- define and initialize p1a (age of p1 object related to Person struct), p1f, p1l using isAdult methode
+3b- create statement to return string related to attribute maths operation
+4- Initialize p1 var that is type of Person and allocate it next values : "John", "Doe", 18
+4- start PrintInfo func with p1 var
