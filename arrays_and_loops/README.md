@@ -23,11 +23,11 @@ Element 4: 4, Square: 16, Even
 Element 5: 5, Square: 25, Odd
 ```
 
-Exercie 2
+# Array Squaring and Even/Odd Identifier
    
 create basic array and loop over it to print simple values
    
-How it works
+## How it works
 1- Initialize an array of 5integer and odd var of type string
 2- Iterate over array with value i
 3- at each iteration, associate index of array with i*i
