@@ -10,3 +10,19 @@ For this first assignment, Edouard needs to write a simple Go program (`hello_wo
 2. Inside the file, write a Go program that prints `hello world!` to stdout.
 3. Update this README with instructions on how to run the `hello_world.go` code. The instructions should explain how to compile and run the program using Go.
 
+
+## Answers
+compilation:
+'''
+go build hello_world.go
+'''
+
+execution:
+'''
+go run hello_world.go
+'''
+
+execution:
+'''
+./hello_world.go
+'''
