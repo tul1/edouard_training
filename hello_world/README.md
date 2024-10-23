@@ -15,4 +15,4 @@ Compilation: `go build hello_world.go`
 
 Execute go code: `go run hello_world.go`
 
-Execute binary: `./hello_world.go`
+Execute binary: `./hello_world`
