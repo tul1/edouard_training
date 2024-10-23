@@ -22,3 +22,21 @@ Element 3: 3, Square: 9, Odd
 Element 4: 4, Square: 16, Even
 Element 5: 5, Square: 25, Odd
 ```
+
+# Array Squaring and Even/Odd Identifier
+   
+Create basic array and loop over it to print simple values.
+   
+## How it works
+1- Initialize an array of 5integer and odd var of type string
+2- Iterate over array with value i
+3- at each iteration, associate index of array with i*i
+4- at each iteration check if modulo 2 of array index is 0 or not, if 0 then associate odd string value to odd var else associate even value to odd var
+5- at each iteration print index of element, value of element, square of element and if element is odd or not)
+
+## How it runs
+Compilation: `go build arrays_and_loop.go`
+
+Execute go code: `go run arrays_and_loop.go`
+
+Execute binary: `./arrays_and_loop`
