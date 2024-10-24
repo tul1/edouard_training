@@ -1,4 +1,4 @@
-# Assignment 12: Concurrent File Writing with Fan-In and Fan-Out Goroutines
+# Assignment 10: Concurrent File Writing with Fan-In and Fan-Out Goroutines
 
 ## Objective
 

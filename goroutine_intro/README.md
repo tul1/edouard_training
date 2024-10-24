@@ -1,4 +1,4 @@
-# Assignment 10: Introduction to Context and Goroutines
+# Assignment 8: Introduction to Context and Goroutines
 
 ## Objective
 
