@@ -2,6 +2,21 @@
 
 This repository is dedicated to Edouard's Golang training assignments. Each assignment will contain specific instructions and code related to Edouard's learning journey in Go.
 
+## Topics Covered by the Training
+
+1. **Hello World and Setup**: Basic Go environment setup and printing to stdout.
+2. **Arrays and Loops**: Working with arrays, loops, and conditionals (odd/even checks).
+3. **String Manipulation**: Reading user input, transforming strings, and reversing them.
+4. **Structs, Public and Private Methods**: Defining structs, creating public and private methods, and interacting with struct fields.
+5. **Pointers and Pointer Semantics**: Understanding pointers, value vs. pointer semantics, and passing structs by pointer.
+6. **Data Structures (Maps)**: Working with hash maps (`map` in Go), adding, updating, and deleting elements.
+7. **Logic Operators (Switch, Loops)**: Using `switch` statements, `for` loops (including `while` and `do-while` equivalents), and conditionals.
+8. **Context and Goroutines**: Introduction to `context` in Go and controlling goroutines with timeout and cancellation.
+9. **Concurrent File Writing with Goroutines**: Implementing concurrency with goroutines to write to a file and using synchronization.
+10. **Fan-In and Fan-Out with Goroutines**: Learning the fan-in and fan-out concurrency patterns, merging results from multiple goroutines.
+
+Next topics: Generics types, linked list, queues and stack, BFS and DFS algorithms and unit testing.
+
 ## How to Contribute
 
 To contribute to this repository and solve the exercises in the folders, you must create a pull request. All pull requests will be reviewed and must be validated before being merged into the main branch.
