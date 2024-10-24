@@ -1,4 +1,4 @@
-# Assignment 6: Concurrent File Writing with Goroutines
+# Assignment 11: Concurrent File Writing with Goroutines
 
 ## Objective
 
