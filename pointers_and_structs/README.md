@@ -30,3 +30,43 @@ Original Rectangle: Width = 5, Height = 3
 Scaled by Value (No Change): Width = 5, Height = 3
 Scaled by Pointer (Changed): Width = 10, Height = 6
 ```
+
+## How it works
+
+1- Define Rectangle struct with two float64 var are: `width`, `height`
+
+2- Declare ScaleRectByPointer func that takes r1, a pointer of type Rectangle
+
+2.1- write on r1 memory adress to modify width & height attributes
+
+3- Declare ScaleRectByValue func that takes r1 of type Rectangle
+
+3.1- Copy r1 instance & modify width & height attributes
+
+
+## How it runs
+
+Execute go code:
+
+```bash
+go run pointer_structs.go
+```
+
+Compilation:
+
+```bash
+go build pointer_structs.go
+```
+
+Execute binary:
+
+```bash
+./pointer_structs
+```
+
+## Ouput
+
+formated ouput:
+Original Rectangle: Width = , <r1.width> , Height = , <r1.height>
+Scaled by Value (No Change): Width = , <ScaleRectByValue(r1.width)> , Height = , <ScaleRectByValue(r1.height)>
+Scaled by Pointer (Changed): Width = , <ScaleRectByPointer(r1.width)> , Height = , <ScaleRectByPointer(r1.height)>
