@@ -14,8 +14,12 @@ This repository is dedicated to Edouard's Golang training assignments. Each assi
 8. **Context and Goroutines**: Introduction to `context` in Go and controlling goroutines with timeout and cancellation.
 9. **Concurrent File Writing with Goroutines**: Implementing concurrency with goroutines to write to a file and using synchronization.
 10. **Fan-In and Fan-Out with Goroutines**: Learning the fan-in and fan-out concurrency patterns, merging results from multiple goroutines.
-
-Next topics: Generics types, linked list, queues and stack, BFS and DFS algorithms and unit testing.
+11. **Generics in Go with Generic Field Types**: Showcasing how generics can make data structures more flexible.
+12. **Linked Lists**: Learning the concept of a **linked list** and demonstrates how to create and manage nodes within it.
+13. **Stacks and Queues Combined**: Working with **stacks** and **queues** and demonstrates how to use them together by implementing a program that processes data in both **First-In-First-Out (FIFO)** and **Last-In-First-Out (LIFO)** order.
+14. **Binary Trees**: Introduction to the **binary tree** data structure, which is fundamental in sorting, searching, and hierarchical data storage.
+15. **Maze Solver with BFS and DFS**: Learning to implement **Breadth-First Search (BFS)** and **Depth-First Search (DFS)** algorithms to find a path through a maze.
+16. **Unit Testing with Mocking**: Introduction to unit testing in Go using the **testing** package, the **testify** library, and **mockgen** for generating mocks.
 
 ## How to Contribute
 
@@ -24,23 +28,27 @@ To contribute to this repository and solve the exercises in the folders, you mus
 Follow these steps to contribute:
 
 1. **Clone the repository** (if you haven't already):
+
    ```bash
    git clone https://github.com/your-username/golang-training-repo.git
    cd golang-training-repo
    ```
 
 2. **Create a new branch** for your exercise solution:
+
    ```bash
    git checkout -b feature/your-branch-name
    ```
 
 3. **Work on your solution** and commit your changes:
+
    ```bash
    git add .
    git commit -m "Add solution for [exercise-name]"
    ```
 
 4. **Push the branch** to the repository:
+
    ```bash
    git push origin feature/your-branch-name
    ```
