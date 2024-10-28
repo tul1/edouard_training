@@ -19,3 +19,39 @@ This assignment introduces Go’s `context` package and demonstrates how to cont
 Task started...
 Task canceled due to context timeout!
 ```
+
+## How it works
+
+1- define a context withdeadline with a duration of 2seconds, when it starts it takes actual time and add 2seconds
+
+2- execute Cancelfunc of context if main func is terminated to not let context survive more that what is expected
+
+3- execute a go routine to print a message, wait 5seconds et print another message
+
+4- From context.Done channel if deadline expires so print Error method of
+context 
+
+## How it runs
+
+Execute go code:
+   
+```bash
+go run context_goroutines_assignment.go
+```
+
+Compilation:
+   
+```bash
+go build context_goroutines_assignment.go
+```
+
+Execute binary:
+
+```bash
+./context_goroutines_assignment
+```
+
+## Output
+
+output:
+context deadline exceeded
