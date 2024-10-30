@@ -20,6 +20,7 @@ This repository is dedicated to Edouard's Golang training assignments. Each assi
 14. **Binary Trees**: Introduction to the **binary tree** data structure, which is fundamental in sorting, searching, and hierarchical data storage.
 15. **Maze Solver with BFS and DFS**: Learning to implement **Breadth-First Search (BFS)** and **Depth-First Search (DFS)** algorithms to find a path through a maze.
 16. **Unit Testing with Mocking**: Introduction to unit testing in Go using the **testing** package, the **testify** library, and **mockgen** for generating mocks.
+17. **Advanced Pointers, Arrays, and Matrices**: In-depth look at pointers, arrays, and matrices in Go.
 
 ## How to Contribute
 
