@@ -41,7 +41,7 @@ Scaled by Pointer (Changed): Width = 10, Height = 6
 
 3- Declare ScaleRectByValue func that takes r1 of type Rectangle
 
-3.1- Copy r1 instance & modify width & height attributes
+3.1- Copy r1 instance & modify width & height attributes inside func
 
 
 ## How it runs
