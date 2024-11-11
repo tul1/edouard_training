@@ -15,12 +15,12 @@ func main() {
                         fmt.Print(user_input, ", ")
                 }
         default:
+		fmt.Print("The number is zero")
+	case user_input<0:		
                 for user_input<0 {
                         fmt.Print("Please enter a positive number: ")
                         fmt.Scan(&user_input)
                 }
                 fmt.Printf("You entered a positive number: %d", user_input)
-        case user_input==0:
-                fmt.Print("The number is zero")
         }
 }
