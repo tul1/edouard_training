@@ -26,10 +26,9 @@ Task canceled due to context timeout!
 
 2- execute Cancelfunc of context if main func is terminated to not let context survive more that what is expected
 
-3- execute a go routine to print a message, wait 5seconds et print another message
+3- execute a go routine to print a message, wait 5seconds and print another message
 
-4- From context.Done channel if deadline expires so print Error method of
-context 
+4- From context.Done channel if deadline expires so print Error method of context 
 
 ## How it runs
 
