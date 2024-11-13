@@ -25,3 +25,46 @@ Please enter a positive number: -5
 Please enter a positive number: 2
 You entered a positive number: 2
 ```
+
+## How it works
+
+1- Scan user input and assign value into a space of memory
+
+2- In case of user input is positive print it and start a loop from user value to 0, at each iteration print value of user input
+
+3- In case of user input is negative ask user to change he's input to a positive value with 
+
+4- Use default case in midle switch element in order to help iteration memory
+
+## How it runs 
+
+Execute go code:
+
+```bash
+go run logic_operators.go
+```
+
+Compilation:
+
+```bash
+go build logic_operators.go
+```
+
+Execute binary:
+
+```bash
+./logic_operators
+```
+
+## Output
+
+output:
+The number is positive
+formated output:
+Counting down: <user_input>
+output:
+Please enter a positive number:
+formated output:
+You entered a positive number: <user_input>
+output:
+The number is zero
