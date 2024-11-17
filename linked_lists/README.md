@@ -24,3 +24,46 @@ This assignment introduces the concept of a **linked list** and demonstrates how
 ```text
 Linked List: 3 -> 5 -> 7
 ```
+
+## How it works
+
+1- Declare Node struct with next attributes: value of type int and next of type pointer (directed to a Node struct)
+
+2- Declare LinkedList struct with head attribute, head is a pointer type (directed to Node struct)
+
+3- Create a Add LinkedList medthod, it takes data of type int
+
+3.1- create a unperson pointer, it takes data as value and nil as next
+
+3.2- if LinkedList is empty then create a node with unperson pointer else create a temporary pointer and assign Linkedlist to it 
+
+3.3- Pass through each node of temporary pointer with next attribute, check at each iteration that next attribute value of 
+temporary pointer is not nil
+
+3.4- if next attribute of temporary pointer is not nil then assign actual pointer to next pointer of temporary variable, if next 
+attribute of actual temporary pointer is nil then add an unperson node as next attribute of actual temporary pointer
+
+## How it runs 
+
+Execute go code:
+
+```bash
+go run linkedlist_assignment.go
+```
+
+Compilation:
+
+```bash
+go build linkedlist_assignment.go
+```
+
+Execute binary:
+
+```bash
+./linkedlist_assignment
+```
+
+## Output
+
+output:
+LinkedList: <LinkedList.value> -> <LinkedList.next.value>
