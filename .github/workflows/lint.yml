@@ -21,11 +21,3 @@ jobs:
         uses: golangci/golangci-lint-action@v6
         with:
           version: v1.60
-          args: |
-            ./arrays_and_loops
-            ./hello_world
-            ./pointers_and_structs
-            ./strings_and_functions
-            ./structs_public_and_private_methods
-            ./switch_and_loops
-            ./unit_testing
