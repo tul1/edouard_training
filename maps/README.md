@@ -20,3 +20,35 @@ This assignment will help you learn Go’s data structures, particularly hash ma
 Item: Apples, Quantity: 10
 Item: Oranges, Quantity: 5
 ```
+
+## How it works
+
+1- Initialize a m map with key of type string & value of type int
+
+2- Define several element in map with key & value
+
+3- Add & Remove values of a map with associate keys
+
+4- Iterate over map with key & value
+
+## How it runs
+
+Execute go code:
+```bash
+go run hashmap.go
+```
+
+Compilation:
+```bash
+go build hashmap.go
+```
+
+Execute binary:
+```bash
+./hashmap
+```
+
+## Output
+
+formated output:
+Item: <m[key]> , Quantity: <m[value]>
