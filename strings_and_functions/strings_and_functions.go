@@ -15,9 +15,12 @@ func Reverse(s string) string {
 
 func main() {
         var stdin string
-        fmt.Scan(&stdin)
-        fmt.Printf("Original String: %s , Uppercase String: %s , Reversed String: %s", stdin, strings.ToUpper(stdin),
-Reverse(stdin))
+        _,err:=fmt.Scan(&stdin)
+        if err!= nil {
+		fmt.Print(err)
+	} else {
+		fmt.Printf("Original String: %s , Uppercase String: %s , Reversed String: %s", stdin, strings.ToUpper(stdin),Reverse(stdin))
+	}
 }
 
 
